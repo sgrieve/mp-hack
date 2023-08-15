@@ -10,6 +10,7 @@ def clean_uni(uni):
     '''
     Fixing a bunch of issues when we scrape university names from wikipedia
     '''
+    uni = uni.split('}')[-1]
     uni = re.sub(r'\([^)]*\)', '', uni)  # Remove information in brackets eg "(BSc)"
     uni = re.sub(r'\[[^)]*\]', '', uni)  # Remove footnote links in square brackets
     uni = uni.replace('  ', '')  # Strip extra whitespace due to the above steps
@@ -118,7 +119,7 @@ for i, country in enumerate(uk):
         except:
 
             # David Simmonds is the only MP to not have the MP template on wikipedia
-            if name == 'David Simmonds':
+            if name == 'David Simmonds' and 'England' in country:
                 mp_data['unis'] = 'Durham University|Birkbeck, University of London'
                 mp_data['sentence'] = 'No Data'
                 mp_uni[name] = mp_data
