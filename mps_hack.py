@@ -4,6 +4,7 @@ import pandas as pd
 import re
 import json
 import spacy
+import requests
 
 def clean_uni(uni):
     '''
@@ -20,17 +21,26 @@ def clean_uni(uni):
     uni_split = uni.split('|')
     return uni_split
 
+def get_mp_list(cached=False):
+    '''
+    Set cached to true to not download the latest mp list
 
+    The cached version has been edited to correct differences in names between
+    theyworkforyou and wikipedia - eg jnr vs jr, chris vs christopher
+    '''
+    if not cached:
+        r = requests.get('https://www.theyworkforyou.com/mps/?f=csv')
+        with open('mps.csv', 'w') as w:
+            w.write(r.text)
+
+
+# Set up spacy and MediaWiki
 nlp = spacy.load('en_core_web_sm')
-
 wikipedia = MediaWiki()
-# This should pull the live data rather than work with a cached version
-# https://www.theyworkforyou.com/mps/
-mps = pd.read_csv('mps2.csv')
+
+get_mp_list(True)
+mps = pd.read_csv('mps.csv')
 names = mps['First name'] + ' ' +  mps['Last name']
-
-
-# english mps are grouped by region on the page so will need a bit more tweaking
 
 uk = ['List of MPs for constituencies in England (2019–present)',
       'List of MPs for constituencies in Scotland (2019–present)',
@@ -47,6 +57,8 @@ for i, country in enumerate(uk):
     mp_uni = {}
 
     for name in names:
+        title = None
+
         try:
             mp_data = {}
             # There are multiple tables in the english data
@@ -59,10 +71,10 @@ for i, country in enumerate(uk):
             for mp_table in mp_tables:
                 if mp_table.find('a', {'title': re.compile(name+'*')}):
                     title = mp_table.find('a', {'title': re.compile(name+'*')}).attrs['title']
+                    print(name, 'found', country)
                     break
 
             p = wikipedia.page(title, auto_suggest=False)
-            print(name, 'found')
 
             mp_soup = BeautifulSoup(p.html, 'html.parser')
 
@@ -97,10 +109,21 @@ for i, country in enumerate(uk):
                 mp_data['unis'] = 'No Data'
                 mp_data['sentence'] = 'No Data'
 
+            # Changed her name after joining parliament
+            if name == 'Kate Griffiths':
+                name = 'Kate Kniveton'
+
             mp_uni[name] = mp_data
 
         except:
-            print(name, 'not found')
+
+            # David Simmonds is the only MP to not have the MP template on wikipedia
+            if name == 'David Simmonds':
+                mp_data['unis'] = 'Durham University|Birkbeck, University of London'
+                mp_data['sentence'] = 'No Data'
+                mp_uni[name] = mp_data
+            else:
+                print(name, 'not found')
 
     with open(outnames[i], 'w') as f:
          f.write(json.dumps(mp_uni, indent=4, ensure_ascii=False))
