@@ -11,7 +11,11 @@ This is a project to:
 
 # Introduction
 
-More detailed explanation of what's the objective of the project? What do people learn, how may they use the data for their own purposes?
+There are 650 MPs elected to the UK Houses of Parliament. Although there is lots of open data available about MPs (eg https://www.theyworkforyou.com/) the majority of it is focused on what they DO within parliament, rather than their backgrounds/skills/experience.
+
+The UK university sector is in crisis with 50+ institutions currently going through redundancies. Pushing back against cuts requires coalitions of academics/university staff, politicians, funders and policymakers to make the case for the power/value of research.
+
+(N.B - Not every politician should be university educated and this project is not about arguing that every MP needs a degree, but more to study the cohort of those that do)
 
 # Examples
 
