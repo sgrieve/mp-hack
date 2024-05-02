@@ -2,3 +2,5 @@
 venv/
 .venv/
 
+subject_embeddings/categories_embeddings_full.csv
+subject_embeddings/courses_embeddings_full.csv
