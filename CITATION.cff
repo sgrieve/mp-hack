@@ -8,6 +8,7 @@ message: >-
   metadata from this file.
 type: software
 authors: ['Tom Bland',
+ 'Carlos Camara',
  'Tobias Ferreira',
  'Stuart Grieve',
  'Harry Moss',
