@@ -43,7 +43,7 @@ subjectCount = df['SubjectName'].value_counts(ascending=False).reset_index(name=
 
 # Overview
 
-## Row
+## Row {height=30%}
 
 ```{python}
 #| content: valuebox
@@ -86,7 +86,7 @@ alt.Chart(
        "Most popular univerities",
        subtitle="Some nice subtitle"
    )
-).mark_bar().encode(
+).mark_bar(color = "#D2232A").encode(
     x='Counts:Q',
     y=alt.Y('UniName:N').sort('-x').title(''),
 ).configure_axis(
@@ -106,7 +106,7 @@ alt.Chart(
        "Most popular degrees",
        subtitle="Some nice subtitle"
    )
-).mark_bar().encode(
+).mark_bar(color = "#D2232A").encode(
     x='Counts:Q',
     y=alt.Y('SubjectName:N').sort('-x').title(''),
 ).configure_axis(
