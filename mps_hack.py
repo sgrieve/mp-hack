@@ -47,7 +47,7 @@ uk = ['List of MPs for constituencies in England (2019–present)',
       'List of MPs for constituencies in Scotland (2019–present)',
       'List of MPs for constituencies in Northern Ireland (2019–present)',
       'List of MPs for constituencies in Wales (2019–present)']
-outnames = ['english_mps.json','scottish_mps.json', 'ni_mps.json', 'welsh_mps.json']
+outnames = ['english_mps-new.json','scottish_mps-new.json', 'ni_mps-new.json', 'welsh_mps-new.json']
 
 for i, country in enumerate(uk):
 
@@ -118,13 +118,13 @@ for i, country in enumerate(uk):
 
         except:
 
-            # David Simmonds is the only MP to not have the MP template on wikipedia
-            if name == 'David Simmonds' and 'England' in country:
-                mp_data['unis'] = 'Durham University|Birkbeck, University of London'
-                mp_data['sentence'] = 'No Data'
-                mp_uni[name] = mp_data
-            else:
-                print(name, 'not found')
+            # # David Simmonds is the only MP to not have the MP template on wikipedia
+            # if name == 'David Simmonds' and 'England' in country:
+            #     mp_data['unis'] = 'Durham University|Birkbeck, University of London'
+            #     mp_data['sentence'] = 'No Data'
+            #     mp_uni[name] = mp_data
+            # else:
+            print(name, 'not found')
 
     with open(outnames[i], 'w') as f:
          f.write(json.dumps(mp_uni, indent=4, ensure_ascii=False))
