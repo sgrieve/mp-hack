@@ -1,0 +1,134 @@
+--- 
+title: "Exploring PM's Education"
+github: https://github.com/sgrieve/mp-hack
+logo: img/logo.png
+theme: 
+    - simplex
+    - dashboard.scss
+#author: "Carlos Cámara, CW2024 working group"
+format: 
+    dashboard:
+        nav-buttons: 
+            - github
+
+--- 
+```{python}
+import altair as alt
+import pandas as pd
+import numpy as np
+from itables import show
+
+mps = pd.read_csv("../database/mp.csv")
+subjects = pd.read_csv("../database/subject.csv")
+unis = pd.read_csv("../database/university.csv")
+relationships = pd.read_csv("../database/relationship.csv")
+
+df = pd.merge(relationships, mps, right_on='ID', left_on='MP').drop(columns = 'ID')
+df = pd.merge(df, unis, left_on='University', right_on='ID').drop(columns = 'ID')
+df = pd.merge(df, subjects, left_on='Subject', right_on='ID').drop(columns = 'ID')
+
+# Replace strings with actual missing data.
+df = df.replace('no data', np.nan)
+```
+
+```{python}
+# stats
+numDegrees = df.groupby(['Name'])['Subject'].count().reset_index(name='Counts')
+
+unisCount = df['UniName'].value_counts(ascending=False).reset_index(name='Counts')
+
+subjectCount = df['SubjectName'].value_counts(ascending=False).reset_index(name='Counts')
+
+```
+
+# Overview
+
+## Row {height=25%}
+
+```{python}
+#| content: valuebox
+#| title: "Avg degrees per MP"
+dict(
+  icon = "mortarboard-fill",
+  color = "light",
+  value = numDegrees['Counts'].mean()
+)
+```
+
+```{python}
+#| content: valuebox
+#| title: "Most popular university"
+dict(
+  icon = "buildings-fill",
+  color = "light",
+  value = unisCount.iloc[0,0]
+)
+```
+
+
+```{python}
+#| content: valuebox
+#| title: "Most popular subject"
+dict(
+  icon = "patch-check-fill",
+  color = "light",
+  value = subjectCount.iloc[0,0]
+)
+```
+
+## Row
+
+```{python}
+#| title: "Top 10 Universities"
+alt.Chart(
+    unisCount.head(10),
+    title=alt.Title(
+       "Most popular univerities",
+       subtitle="Some nice subtitle"
+   )
+).mark_bar(color = "#D2232A").encode(
+    x='Counts:Q',
+    y=alt.Y('UniName:N').sort('-x').title(''),
+).configure_axis(
+    grid=False
+).configure_view(
+    stroke=None
+)
+
+
+```
+
+```{python}
+#| title: "Top 10 degrees"
+alt.Chart(
+    subjectCount.head(10),
+    title=alt.Title(
+       "Most popular degrees",
+       subtitle="Some nice subtitle"
+   )
+).mark_bar(color = "#D2232A").encode(
+    x='Counts:Q',
+    y=alt.Y('SubjectName:N').sort('-x').title(''),
+).configure_axis(
+    grid=False
+).configure_view(
+    stroke=None
+)
+
+
+```
+
+
+# Dataset
+
+```{python}
+#| title: "`MP.csv`"
+show(df)
+
+```
+
+# About
+
+This is a prototype developed in the [Collaborations Workshop 2024 (CW24)](https://www.software.ac.uk/workshop/collaborations-workshop-2024-cw24)' hackday, based on the idea from Suart Grive to produce a [Parliamentary Education Census](https://docs.google.com/document/d/1xaWhPjW05RC3_bwbzVMsuIKVUotlwpKZoG5LpozbqQA/edit).
+
+Repo: https://github.com/sgrieve/mp-hack
