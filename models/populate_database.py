@@ -2,18 +2,22 @@ import pandas as pd
 import numpy as np
 
 
-def add_mp(dict_in, df):
+def add_mp(mp_id, dict_in, df):
     """Add an entry to dataframe of mp.csv
     """
-    if dict_in["Name"] in df["Name"]:
+    if mp_id in df["ID"]:
         return df
     else:
         # Create new row for mp
-        mp_id = np.max(df["ID"]) + 1
+        if "PhotoURL" in dict_in.keys():
+            photo_url = dict_in["PhotoURL"]
+        else:
+            photo_url = None
+
         row = pd.DataFrame([{
             "ID": mp_id,
             "Name": dict_in["Name"],
-            "PhotoURL": dict_in["PhotoURL"],
+            "PhotoURL": photo_url,
         }])
         return pd.concat([df, row], ignore_index=True)
 
@@ -73,9 +77,9 @@ def add_relationship(dict_in, df_mp, df_uni, df_rel, df_sub=None):
 
     # Add rows for each uni / subject
     rows = pd.DataFrame(
-        [{"MP": int(mp_id),
-        "University": int(uni_id),
-        "Subject": np.nan} for uni_id in uni_ids]
+        [{"MP": str(mp_id),
+        "University": str(uni_id),
+        "Subject": None} for uni_id in uni_ids]
     )
 
     # TODO: Add a check to make sure rows do not currently exist
