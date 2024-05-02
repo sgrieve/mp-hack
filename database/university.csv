@@ -1,5 +1,5 @@
 ID,UniName,UniLocation,WikiURL
-1,University of Exeter,"50° 44′ 10″ N, 3° 32′ 6″ W",https://www.wikidata.org/wiki/Q1414861
-2,University of Kansas,"38° 57′ 30.24″ N, 95° 14′ 52.08″ W",https://www.wikidata.org/wiki/Q52413
-3,University of Leicester,"52° 37′ 17″ N, 1° 7′ 28″ W", https://www.wikidata.org/wiki/Q1333399
-4,University of Bedfordshire,"51° 52′ 40″ N, 0° 24′ 41″ W",https://www.wikidata.org/wiki/Q3047150
+1,University of Exeter,"50.736111, -3.535",https://www.wikidata.org/wiki/Q1414861
+2,University of Kansas,"38.9584, -95.2478",https://www.wikidata.org/wiki/Q52413
+3,University of Leicester,"52.621389, -1.124444", https://www.wikidata.org/wiki/Q1333399
+4,University of Bedfordshire,"51.877778, -0.411389",https://www.wikidata.org/wiki/Q3047150
