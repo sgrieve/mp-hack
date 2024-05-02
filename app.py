@@ -56,3 +56,29 @@ def most_popular():
     university_count = merged_df['UniName'].value_counts().reset_index()
     # university_count.columns = ['ID', 'Count']
     return university_count.to_dict(orient='records')
+
+
+import matplotlib.pyplot as plt
+from io import BytesIO
+
+def create_graph():
+    # Create a plot
+    plt.figure()
+    plt.plot([1, 2, 3, 4], [10, 20, 25, 30])
+    plt.title('Sample Plot')
+    plt.xlabel('X-axis')
+    plt.ylabel('Y-axis')
+    
+    # Save the plot to a BytesIO object
+    buf = BytesIO()
+    plt.savefig(buf, format='png')
+    buf.seek(0)  # Move to the start of the BytesIO buffer
+    return buf
+  
+from fastapi.responses import StreamingResponse
+
+
+@app.get("/plot/")
+async def get_plot():
+    buf = create_graph()
+    return StreamingResponse(buf, media_type="image/png")
