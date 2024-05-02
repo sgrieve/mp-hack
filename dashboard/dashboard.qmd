@@ -118,6 +118,19 @@ alt.Chart(
 
 ```
 
+# The Path to MP
+
+::: {.callout-warning appearance="simple"}
+### This is just a mock-up
+
+It would be good visualising the "educational path" followed by MPs. A Sankey diagram like the one below would be able to show how many MPs from different parties studied at different universities, and then degrees. A visualisation like this would show a hierarchical proportion of MPs studying at a certain university or degree.
+:::
+
+
+
+
+
+![](https://community.devexpress.com/blogs/analytics/20200919-sankey-diagram-v20.2-eap/sankey2.png)
 
 # Dataset
 
