@@ -47,7 +47,7 @@ uk = ['List of MPs for constituencies in England (2019–present)',
       'List of MPs for constituencies in Scotland (2019–present)',
       'List of MPs for constituencies in Northern Ireland (2019–present)',
       'List of MPs for constituencies in Wales (2019–present)']
-outnames = ['english_mps-new.json','scottish_mps-new.json', 'ni_mps-new.json', 'welsh_mps-new.json']
+outnames = ['json/english_mps-new.json','json/scottish_mps-new.json', 'json/ni_mps-new.json', 'json/welsh_mps-new.json']
 
 for i, country in enumerate(uk):
 
