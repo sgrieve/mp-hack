@@ -8,7 +8,6 @@ def add_mp(mp_id: str, dict_in: dict, df: pd.DataFrame):
     """Add an entry to dataframe of mp.csv
     """
 
-
     if mp_id in df["ID"]:
         return df
     else:
@@ -69,21 +68,29 @@ def add_relationship(dict_in, df_mp, df_uni, df_rel, df_sub=None):
     # Find MP name and university in DF
     # print(df_mp["Name"])
     if dict_in["Name"] in list(df_mp["Name"]):
-        mp_id = df_mp.loc[df_mp['Name'] == dict_in["Name"]]["ID"]
+        row = df_mp.loc[df_mp['Name'] == dict_in["Name"]]
+        row = row.reset_index()
+        mp_id = str(row["ID"][0])
+        print(mp_id)
     else:
         raise ValueError(f"{dict_in['Name']} not in MP dataframe")
 
     uni_ids = []
     for uni in dict_in["Education"]:
         if uni["UniName"] in list(df_uni["UniName"]):
-            uni_ids.append(df_uni.loc[df_uni['UniName'] == uni["UniName"]]["ID"])
+            # uni_ids.append(str(df_uni.loc[df_uni['UniName'] == uni["UniName"]]["ID"]))
+            row = df_uni.loc[df_uni['UniName'] == uni["UniName"]]
+            row = row.reset_index()
+            uni_id = str(row["ID"][0])
+            uni_ids.append(uni_id)
+
         else:
             raise ValueError(f"{uni['UniName']} not in df_uni")
 
     # Add rows for each uni / subject
     rows = pd.DataFrame(
-        [{"MP": str(mp_id),
-        "University": str(uni_id),
+        [{"MP": mp_id,
+        "University": uni_id,
         "Subject": None} for uni_id in uni_ids]
     )
 
@@ -118,10 +125,9 @@ def main():
     rel_df = pd.read_csv("database/relationship.csv")
 
     extracted_name_dict = load_name_data("json/mps.json")
-    print(extracted_name_dict)
 
     for mp_id, mp_dict in extracted_name_dict.items():
-        mp_df = add_mp(mp_id, mp_dict, mp_df)
+        mp_df = add_mp(str(mp_id), mp_dict, mp_df)
         uni_df = add_university(mp_dict, uni_df)
         rel_df = add_relationship(mp_dict, mp_df, uni_df, rel_df)
 
