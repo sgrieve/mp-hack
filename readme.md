@@ -41,4 +41,4 @@ How shall it be cited?
 
 # Licensing
 
-What's our license
+Software is licensed under an [MIT license](./license.md). Text data is taken from Wikipedia and is available under [Creative Commons Attribution-ShareAlike License 4.0](https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License)
