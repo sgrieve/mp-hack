@@ -4,7 +4,7 @@ github: https://github.com/sgrieve/mp-hack
 logo: img/logo.png
 theme: 
     - simplex
-    #- dashboard.css
+    - dashboard.scss
 #author: "Carlos Cámara, CW2024 working group"
 format: 
     dashboard:
@@ -43,7 +43,7 @@ subjectCount = df['SubjectName'].value_counts(ascending=False).reset_index(name=
 
 # Overview
 
-## Row {height=30%}
+## Row {height=25%}
 
 ```{python}
 #| content: valuebox
