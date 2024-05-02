@@ -7,11 +7,21 @@ message: >-
   If you use this software, please cite it using the
   metadata from this file.
 type: software
-authors: ['Tom Bland',
- 'Carlos Camara',
- 'Tobias Ferreira',
- 'Stuart Grieve',
- 'Harry Moss',
- 'Scott Archer Nicholls',
- 'Nadine Spychala',
- 'Chris Wood']
+authors:
+  - given-names: Tom
+    family-names: Bland
+  - family-names: Camara
+    given-names: Carlos
+  - family-names: Ferreira
+    given-names: Tobias
+  - family-names: Grieve
+    given-names: Stuart
+  - family-names: Moss
+    given-names: Harry
+  - family-names: Archer Nicholls
+    given-names: Scott
+  - family-names: Spychala
+    given-names: Nadine
+  - family-names: Wood
+    given-names: Chris
+license: MIT
