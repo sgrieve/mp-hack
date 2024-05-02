@@ -46,3 +46,13 @@ def relationship():
     merged_df['lat'] = pd.to_numeric(merged_df['lat'])
     merged_df['lng'] = pd.to_numeric(merged_df['lng'])
     return merged_df.to_dict(orient='records')
+
+@app.get("/most_popular")
+def most_popular():
+    df3 = pd.read_csv('database/university.csv')
+    relationship_df = pd.read_csv('database/relationship.csv')
+
+    merged_df = pd.merge(relationship_df, df3, left_on='University', right_on='ID', how='left')
+    university_count = merged_df['UniName'].value_counts().reset_index()
+    # university_count.columns = ['ID', 'Count']
+    return university_count.to_dict(orient='records')
