@@ -1,6 +1,8 @@
 ## Parliamentary Education Census
 
-SHORT INFORMATIVE ELEVATOR PITCH for what that whole thing is about.
+Can we build a tool to allow people to find MPs with relevant training/expertise/affiliations to help support campaigns/initiatives?
+
+For example, this tool could find all the MPs that studied RSE-adjacent degrees, to identify potential political support for future SSI initiatives.
 
 This is a project to:
 
