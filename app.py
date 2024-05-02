@@ -33,13 +33,13 @@ def university():
 
 @app.get("/relationship")
 def relationship():
-    mp = pd.read_csv('database/mp.csv')
-    subject = pd.read_csv('database/subject.csv')
-    university = pd.read_csv('database/university.csv')
-    relationship = pd.read_csv('database/relationship.csv')
+    df1 = pd.read_csv('database/mp.csv')
+    df2 = pd.read_csv('database/subject.csv')
+    df3 = pd.read_csv('database/university.csv')
+    relationship_df = pd.read_csv('database/relationship.csv')
 
-    merged_df = pd.merge(relationship, mp, left_on='MP', right_on='ID', how='left')
-    merged_df = pd.merge(merged_df, subject, left_on='Subject', right_on='ID', how='left')
-    merged_df = pd.merge(merged_df, university, left_on='University', right_on='ID', how='left')
+    merged_df = pd.merge(relationship_df, df1, left_on='MP', right_on='ID', how='left')
+    merged_df = pd.merge(merged_df, df2, left_on='Subject', right_on='ID', how='left')
+    merged_df = pd.merge(merged_df, df3, left_on='University', right_on='ID', how='left')
     merged_df = merged_df.replace([float('inf'), float('-inf'), float('NaN')], None)
     return merged_df.to_dict(orient='records')
