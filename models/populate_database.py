@@ -46,7 +46,8 @@ def add_university(dict_in, df):
                     "ID": uni_id,
                     "UniName": uni["UniName"],
                     "UniLocation": uni["UniLocation"],
-                    "WikiURL": uni["WikiURL"],
+                    # "WikiURL": uni["WikiURL"],
+                    "WikiURL": None,
                 }])
             if row is None:
                 row = new_row
@@ -112,12 +113,21 @@ def main():
     """Do something useful
     """
 
-    mps_data = pd.read_csv("database/mp.csv")
+    mp_df = pd.read_csv("database/mp.csv")
+    uni_df = pd.read_csv("database/university.csv")
+    rel_df = pd.read_csv("database/relationship.csv")
 
+    extracted_name_dict = load_name_data("json/mps.json")
+    print(extracted_name_dict)
 
-    extracted_name_dataframe = load_name_data("json/wiki_extract_474_mp_names.json")
-    
+    for mp_id, mp_dict in extracted_name_dict.items():
+        mp_df = add_mp(mp_id, mp_dict, mp_df)
+        uni_df = add_university(mp_dict, uni_df)
+        rel_df = add_relationship(mp_dict, mp_df, uni_df, rel_df)
 
-    for mp_id in extracted_name_dataframe:
-        add_mp(mp_id, extracted_name_dataframe[mp_id], mps_data)
+    mp_df.to_csv("database/mp.csv")
+    uni_df.to_csv("database/university.csv")
+    rel_df.to_csv("database/relationship.csv")
 
+if __name__ == "__main__":
+    main()

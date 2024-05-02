@@ -1,5 +1,1673 @@
-MP,University,Subject
-1,1,1
-1,2,2
-2,3,3
-2,4,4
+,MP,University,Subject
+0,1,1,1
+1,1,2,2
+2,2,3,3
+3,2,4,4
+0,"2    Q24052782
+Name: ID, dtype: object","4    5
+Name: ID, dtype: int64",
+0,"3    Q19875589
+Name: ID, dtype: object","5    6
+Name: ID, dtype: int64",
+0,"4    Q19870758
+Name: ID, dtype: object","6    7
+Name: ID, dtype: int64",
+1,"4    Q19870758
+Name: ID, dtype: object","7    7
+Name: ID, dtype: int64",
+0,"5    Q300107
+Name: ID, dtype: object","8    8
+Name: ID, dtype: int64",
+0,"6    Q27979810
+Name: ID, dtype: object","9    9
+Name: ID, dtype: int64",
+0,"8    Q577227
+Name: ID, dtype: object","7      7
+10    10
+Name: ID, dtype: int64",
+0,"9    Q19958026
+Name: ID, dtype: object","8      8
+11    11
+Name: ID, dtype: int64",
+0,"10    Q19930597
+Name: ID, dtype: object","12    12
+Name: ID, dtype: int64",
+0,"11    Q30173119
+Name: ID, dtype: object","13    13
+Name: ID, dtype: int64",
+0,"14    Q263076
+Name: ID, dtype: object","14    14
+Name: ID, dtype: int64",
+0,"16    Q24668273
+Name: ID, dtype: object","15    15
+Name: ID, dtype: int64",
+1,"16    Q24668273
+Name: ID, dtype: object","16    15
+Name: ID, dtype: int64",
+0,"17    Q290855
+Name: ID, dtype: object","17    16
+Name: ID, dtype: int64",
+0,"19    Q261773
+Name: ID, dtype: object","18    17
+Name: ID, dtype: int64",
+0,"23    Q76363563
+Name: ID, dtype: object","19    18
+Name: ID, dtype: int64",
+0,"24    Q76363249
+Name: ID, dtype: object","20    19
+Name: ID, dtype: int64",
+0,"25    Q7422176
+Name: ID, dtype: object","21    20
+Name: ID, dtype: int64",
+0,"27    Q27942399
+Name: ID, dtype: object","22    21
+Name: ID, dtype: int64",
+0,"30    Q477464
+Name: ID, dtype: object","23    22
+Name: ID, dtype: int64",
+0,"32    Q264618
+Name: ID, dtype: object","7      7
+10    10
+24    23
+Name: ID, dtype: int64",
+0,"36    Q76363918
+Name: ID, dtype: object","8      8
+11    11
+25    24
+Name: ID, dtype: int64",
+0,"37    Q269449
+Name: ID, dtype: object","26    25
+Name: ID, dtype: int64",
+0,"38    Q303465
+Name: ID, dtype: object","27    26
+Name: ID, dtype: int64",
+0,"39    Q265900
+Name: ID, dtype: object","20    19
+28    27
+Name: ID, dtype: int64",
+0,"42    Q577771
+Name: ID, dtype: object","23    22
+29    28
+Name: ID, dtype: int64",
+0,"45    Q749687
+Name: ID, dtype: object","30    29
+Name: ID, dtype: int64",
+1,"45    Q749687
+Name: ID, dtype: object","31    29
+Name: ID, dtype: int64",
+2,"45    Q749687
+Name: ID, dtype: object","22    21
+32    29
+Name: ID, dtype: int64",
+0,"47    Q575337
+Name: ID, dtype: object","33    30
+Name: ID, dtype: int64",
+0,"48    Q75818967
+Name: ID, dtype: object","34    31
+Name: ID, dtype: int64",
+0,"52    Q333520
+Name: ID, dtype: object","35    32
+Name: ID, dtype: int64",
+1,"52    Q333520
+Name: ID, dtype: object","36    32
+Name: ID, dtype: int64",
+0,"53    Q479064
+Name: ID, dtype: object","23    22
+29    28
+37    33
+Name: ID, dtype: int64",
+1,"53    Q479064
+Name: ID, dtype: object","38    33
+Name: ID, dtype: int64",
+0,"54    Q76363601
+Name: ID, dtype: object","39    34
+Name: ID, dtype: int64",
+0,"56    Q5240825
+Name: ID, dtype: object","22    21
+32    29
+40    35
+Name: ID, dtype: int64",
+0,"58    Q76450658
+Name: ID, dtype: object","41    36
+Name: ID, dtype: int64",
+0,"59    Q258088
+Name: ID, dtype: object","17    16
+42    37
+Name: ID, dtype: int64",
+1,"59    Q258088
+Name: ID, dtype: object","43    37
+Name: ID, dtype: int64",
+0,"60    Q76364853
+Name: ID, dtype: object","18    17
+44    38
+Name: ID, dtype: int64",
+0,"64    Q20127909
+Name: ID, dtype: object","12    12
+45    39
+Name: ID, dtype: int64",
+0,"66    Q20195263
+Name: ID, dtype: object","46    40
+Name: ID, dtype: int64",
+1,"66    Q20195263
+Name: ID, dtype: object","47    40
+Name: ID, dtype: int64",
+0,"67    Q14948811
+Name: ID, dtype: object","48    41
+Name: ID, dtype: int64",
+0,"68    Q575513
+Name: ID, dtype: object","49    42
+Name: ID, dtype: int64",
+1,"68    Q575513
+Name: ID, dtype: object","50    42
+Name: ID, dtype: int64",
+0,"69    Q333846
+Name: ID, dtype: object","51    43
+Name: ID, dtype: int64",
+1,"69    Q333846
+Name: ID, dtype: object","52    43
+Name: ID, dtype: int64",
+0,"72    Q291591
+Name: ID, dtype: object","53    44
+Name: ID, dtype: int64",
+0,"73    Q272234
+Name: ID, dtype: object","18    17
+44    38
+54    45
+Name: ID, dtype: int64",
+1,"73    Q272234
+Name: ID, dtype: object","27    26
+55    45
+Name: ID, dtype: int64",
+0,"74    Q259895
+Name: ID, dtype: object","39    34
+56    46
+Name: ID, dtype: int64",
+0,"76    Q76363124
+Name: ID, dtype: object","57    47
+Name: ID, dtype: int64",
+0,"77    Q695241
+Name: ID, dtype: object","58    48
+Name: ID, dtype: int64",
+0,"78    Q501926
+Name: ID, dtype: object","19    18
+59    49
+Name: ID, dtype: int64",
+0,"79    Q63929106
+Name: ID, dtype: object","23    22
+29    28
+37    33
+60    50
+Name: ID, dtype: int64",
+0,"82    Q328608
+Name: ID, dtype: object","61    51
+Name: ID, dtype: int64",
+0,"86    Q19883132
+Name: ID, dtype: object","48    41
+62    52
+Name: ID, dtype: int64",
+0,"87    Q19883135
+Name: ID, dtype: object","5      6
+63    53
+Name: ID, dtype: int64",
+0,"88    Q263243
+Name: ID, dtype: object","64    54
+Name: ID, dtype: int64",
+0,"89    Q264132
+Name: ID, dtype: object","65    55
+Name: ID, dtype: int64",
+0,"90    Q76364834
+Name: ID, dtype: object","12    12
+45    39
+66    56
+Name: ID, dtype: int64",
+0,"93    Q694881
+Name: ID, dtype: object","67    57
+Name: ID, dtype: int64",
+0,"94    Q20647800
+Name: ID, dtype: object","68    58
+Name: ID, dtype: int64",
+0,"99    Q261675
+Name: ID, dtype: object","35    32
+69    59
+Name: ID, dtype: int64",
+0,"100    Q258963
+Name: ID, dtype: object","68    58
+70    60
+Name: ID, dtype: int64",
+0,"102    Q264477
+Name: ID, dtype: object","71    61
+Name: ID, dtype: int64",
+0,"104    Q20113749
+Name: ID, dtype: object","7      7
+10    10
+24    23
+72    62
+Name: ID, dtype: int64",
+0,"106    Q19871710
+Name: ID, dtype: object","73    63
+Name: ID, dtype: int64",
+0,"107    Q302187
+Name: ID, dtype: object","74    64
+Name: ID, dtype: int64",
+1,"107    Q302187
+Name: ID, dtype: object","75    64
+Name: ID, dtype: int64",
+0,"110    Q269853
+Name: ID, dtype: object","76    65
+Name: ID, dtype: int64",
+0,"111    Q27671735
+Name: ID, dtype: object","21    20
+77    66
+Name: ID, dtype: int64",
+0,"113    Q392375
+Name: ID, dtype: object","0      1
+78    67
+Name: ID, dtype: int64",
+0,"114    Q17180679
+Name: ID, dtype: object","73    63
+79    68
+Name: ID, dtype: int64",
+0,"115    Q76363319
+Name: ID, dtype: object","19    18
+59    49
+80    69
+Name: ID, dtype: int64",
+0,"117    Q441532
+Name: ID, dtype: object","71    61
+81    70
+Name: ID, dtype: int64",
+0,"118    Q19957802
+Name: ID, dtype: object","41    36
+82    71
+Name: ID, dtype: int64",
+0,"119    Q19938362
+Name: ID, dtype: object","83    72
+Name: ID, dtype: int64",
+0,"120    Q20054083
+Name: ID, dtype: object","6      7
+84    73
+Name: ID, dtype: int64",
+1,"120    Q20054083
+Name: ID, dtype: object","50    42
+85    73
+Name: ID, dtype: int64",
+0,"121    Q478387
+Name: ID, dtype: object","23    22
+29    28
+37    33
+60    50
+86    74
+Name: ID, dtype: int64",
+0,"125    Q269925
+Name: ID, dtype: object","87    75
+Name: ID, dtype: int64",
+0,"126    Q5162256
+Name: ID, dtype: object","88    76
+Name: ID, dtype: int64",
+0,"127    Q5181182
+Name: ID, dtype: object","89    77
+Name: ID, dtype: int64",
+0,"132    Q30164903
+Name: ID, dtype: object","7      7
+10    10
+24    23
+72    62
+90    78
+Name: ID, dtype: int64",
+0,"134    Q20648556
+Name: ID, dtype: object","39    34
+56    46
+91    79
+Name: ID, dtype: int64",
+0,"135    Q30164376
+Name: ID, dtype: object","92    80
+Name: ID, dtype: int64",
+0,"137    Q20203414
+Name: ID, dtype: object","23    22
+29    28
+37    33
+60    50
+86    74
+93    81
+Name: ID, dtype: int64",
+1,"137    Q20203414
+Name: ID, dtype: object","14    14
+94    81
+Name: ID, dtype: int64",
+0,"138    Q676658
+Name: ID, dtype: object","95    82
+Name: ID, dtype: int64",
+0,"139    Q328769
+Name: ID, dtype: object","96    83
+Name: ID, dtype: int64",
+0,"140    Q7380182
+Name: ID, dtype: object","13    13
+97    84
+Name: ID, dtype: int64",
+1,"140    Q7380182
+Name: ID, dtype: object","98    84
+Name: ID, dtype: int64",
+2,"140    Q7380182
+Name: ID, dtype: object","99    84
+Name: ID, dtype: int64",
+0,"141    Q259423
+Name: ID, dtype: object","100    85
+Name: ID, dtype: int64",
+1,"141    Q259423
+Name: ID, dtype: object","101    85
+Name: ID, dtype: int64",
+0,"142    Q19871785
+Name: ID, dtype: object","43     37
+102    86
+Name: ID, dtype: int64",
+0,"149    Q5106839
+Name: ID, dtype: object","103    87
+Name: ID, dtype: int64",
+0,"153    Q16972528
+Name: ID, dtype: object","67     57
+104    88
+Name: ID, dtype: int64",
+0,"154    Q575266
+Name: ID, dtype: object","23     22
+29     28
+37     33
+60     50
+86     74
+93     81
+105    89
+Name: ID, dtype: int64",
+0,"157    Q76363097
+Name: ID, dtype: object","12     12
+45     39
+66     56
+106    90
+Name: ID, dtype: int64",
+1,"157    Q76363097
+Name: ID, dtype: object","107    90
+Name: ID, dtype: int64",
+0,"158    Q20648332
+Name: ID, dtype: object","108    91
+Name: ID, dtype: int64",
+0,"159    Q30164696
+Name: ID, dtype: object","48     41
+62     52
+109    92
+Name: ID, dtype: int64",
+0,"161    Q76364263
+Name: ID, dtype: object","110    93
+Name: ID, dtype: int64",
+0,"162    Q20631177
+Name: ID, dtype: object","107    90
+111    94
+Name: ID, dtype: int64",
+0,"163    Q5129278
+Name: ID, dtype: object","112    95
+Name: ID, dtype: int64",
+1,"163    Q5129278
+Name: ID, dtype: object","41     36
+82     71
+113    95
+Name: ID, dtype: int64",
+0,"164    Q263508
+Name: ID, dtype: object","114    96
+Name: ID, dtype: int64",
+0,"166    Q19938322
+Name: ID, dtype: object","115    97
+Name: ID, dtype: int64",
+0,"167    Q749980
+Name: ID, dtype: object","46     40
+116    98
+Name: ID, dtype: int64",
+0,"169    Q750188
+Name: ID, dtype: object","35     32
+69     59
+117    99
+Name: ID, dtype: int64",
+0,"170    Q30234240
+Name: ID, dtype: object","118    100
+Name: ID, dtype: int64",
+0,"171    Q76363641
+Name: ID, dtype: object","119    101
+Name: ID, dtype: int64",
+0,"172    Q272408
+Name: ID, dtype: object","120    102
+Name: ID, dtype: int64",
+0,"173    Q30234242
+Name: ID, dtype: object","27      26
+55      45
+121    103
+Name: ID, dtype: int64",
+1,"173    Q30234242
+Name: ID, dtype: object","17      16
+42      37
+122    103
+Name: ID, dtype: int64",
+0,"174    Q16190712
+Name: ID, dtype: object","39      34
+56      46
+91      79
+123    104
+Name: ID, dtype: int64",
+1,"174    Q16190712
+Name: ID, dtype: object","124    104
+Name: ID, dtype: int64",
+0,"175    Q76364829
+Name: ID, dtype: object","22      21
+32      29
+40      35
+125    105
+Name: ID, dtype: int64",
+0,"179    Q328791
+Name: ID, dtype: object","22      21
+32      29
+40      35
+125    105
+126    106
+Name: ID, dtype: int64",
+0,"180    Q19883145
+Name: ID, dtype: object","127    107
+Name: ID, dtype: int64",
+0,"181    Q5528262
+Name: ID, dtype: object","4        5
+128    108
+Name: ID, dtype: int64",
+0,"182    Q262409
+Name: ID, dtype: object","129    109
+Name: ID, dtype: int64",
+0,"188    Q24034408
+Name: ID, dtype: object","130    110
+Name: ID, dtype: int64",
+0,"192    Q580215
+Name: ID, dtype: object","124    104
+131    111
+Name: ID, dtype: int64",
+1,"192    Q580215
+Name: ID, dtype: object","132    111
+Name: ID, dtype: int64",
+0,"195    Q75838676
+Name: ID, dtype: object","133    112
+Name: ID, dtype: int64",
+0,"196    Q259361
+Name: ID, dtype: object","134    113
+Name: ID, dtype: int64",
+0,"199    Q75583507
+Name: ID, dtype: object","9        9
+135    114
+Name: ID, dtype: int64",
+0,"201    Q266793
+Name: ID, dtype: object","92      80
+136    115
+Name: ID, dtype: int64",
+1,"201    Q266793
+Name: ID, dtype: object","47      40
+137    115
+Name: ID, dtype: int64",
+2,"201    Q266793
+Name: ID, dtype: object","138    115
+Name: ID, dtype: int64",
+0,"202    Q19874642
+Name: ID, dtype: object","107     90
+111     94
+139    116
+Name: ID, dtype: int64",
+0,"204    Q265028
+Name: ID, dtype: object","140    117
+Name: ID, dtype: int64",
+0,"205    Q76736652
+Name: ID, dtype: object","140    117
+141    118
+Name: ID, dtype: int64",
+0,"207    Q16980037
+Name: ID, dtype: object","9        9
+135    114
+142    119
+Name: ID, dtype: int64",
+0,"208    Q333261
+Name: ID, dtype: object","143    120
+Name: ID, dtype: int64",
+0,"209    Q578234
+Name: ID, dtype: object","144    121
+Name: ID, dtype: int64",
+1,"209    Q578234
+Name: ID, dtype: object","92      80
+136    115
+145    121
+Name: ID, dtype: int64",
+2,"209    Q578234
+Name: ID, dtype: object","146    121
+Name: ID, dtype: int64",
+3,"209    Q578234
+Name: ID, dtype: object","147    121
+Name: ID, dtype: int64",
+0,"210    Q575493
+Name: ID, dtype: object","27      26
+55      45
+121    103
+148    122
+Name: ID, dtype: int64",
+1,"210    Q575493
+Name: ID, dtype: object","149    122
+Name: ID, dtype: int64",
+0,"212    Q478714
+Name: ID, dtype: object","23      22
+29      28
+37      33
+60      50
+86      74
+93      81
+105     89
+150    123
+Name: ID, dtype: int64",
+0,"214    Q391341
+Name: ID, dtype: object","0        1
+78      67
+151    124
+Name: ID, dtype: int64",
+0,"215    Q19883053
+Name: ID, dtype: object","48      41
+62      52
+109     92
+152    125
+Name: ID, dtype: int64",
+1,"215    Q19883053
+Name: ID, dtype: object","153    125
+Name: ID, dtype: int64",
+0,"216    Q302763
+Name: ID, dtype: object","101     85
+154    126
+Name: ID, dtype: int64",
+0,"217    Q18164278
+Name: ID, dtype: object","155    127
+Name: ID, dtype: int64",
+0,"219    Q695092
+Name: ID, dtype: object","5        6
+63      53
+156    128
+Name: ID, dtype: int64",
+0,"220    Q54670211
+Name: ID, dtype: object","39      34
+56      46
+91      79
+123    104
+157    129
+Name: ID, dtype: int64",
+0,"221    Q30164279
+Name: ID, dtype: object","158    130
+Name: ID, dtype: int64",
+1,"221    Q30164279
+Name: ID, dtype: object","87      75
+159    130
+Name: ID, dtype: int64",
+0,"223    Q580321
+Name: ID, dtype: object","33      30
+160    131
+Name: ID, dtype: int64",
+0,"226    Q76450714
+Name: ID, dtype: object","0        1
+78      67
+151    124
+161    132
+Name: ID, dtype: int64",
+0,"227    Q76363542
+Name: ID, dtype: object","18      17
+44      38
+54      45
+162    133
+Name: ID, dtype: int64",
+1,"227    Q76363542
+Name: ID, dtype: object","47      40
+137    115
+163    133
+Name: ID, dtype: int64",
+0,"228    Q106828783
+Name: ID, dtype: object","153    125
+164    134
+Name: ID, dtype: int64",
+0,"230    Q30165327
+Name: ID, dtype: object","19      18
+59      49
+80      69
+165    135
+Name: ID, dtype: int64",
+1,"230    Q30165327
+Name: ID, dtype: object","26      25
+166    135
+Name: ID, dtype: int64",
+0,"231    Q30234245
+Name: ID, dtype: object","75      64
+167    136
+Name: ID, dtype: int64",
+0,"233    Q269697
+Name: ID, dtype: object","19      18
+59      49
+80      69
+165    135
+168    137
+Name: ID, dtype: int64",
+1,"233    Q269697
+Name: ID, dtype: object","169    137
+Name: ID, dtype: int64",
+0,"235    Q392064
+Name: ID, dtype: object","133    112
+170    138
+Name: ID, dtype: int64",
+0,"237    Q19871819
+Name: ID, dtype: object","48      41
+62      52
+109     92
+152    125
+171    139
+Name: ID, dtype: int64",
+1,"237    Q19871819
+Name: ID, dtype: object","153    125
+164    134
+172    139
+Name: ID, dtype: int64",
+2,"237    Q19871819
+Name: ID, dtype: object","5        6
+63      53
+156    128
+173    139
+Name: ID, dtype: int64",
+0,"238    Q578037
+Name: ID, dtype: object","9        9
+135    114
+142    119
+174    140
+Name: ID, dtype: int64",
+0,"239    Q750260
+Name: ID, dtype: object","175    141
+Name: ID, dtype: int64",
+0,"240    Q19868633
+Name: ID, dtype: object","119    101
+176    142
+Name: ID, dtype: int64",
+0,"242    Q30165748
+Name: ID, dtype: object","119    101
+176    142
+177    143
+Name: ID, dtype: int64",
+0,"243    Q30165113
+Name: ID, dtype: object","129    109
+178    144
+Name: ID, dtype: int64",
+1,"243    Q30165113
+Name: ID, dtype: object","7        7
+10      10
+24      23
+72      62
+90      78
+179    144
+Name: ID, dtype: int64",
+0,"246    Q19957811
+Name: ID, dtype: object","99      84
+180    145
+Name: ID, dtype: int64",
+0,"248    Q30164902
+Name: ID, dtype: object","0        1
+78      67
+151    124
+161    132
+181    146
+Name: ID, dtype: int64",
+0,"249    Q265870
+Name: ID, dtype: object","182    147
+Name: ID, dtype: int64",
+0,"250    Q20647819
+Name: ID, dtype: object","19      18
+59      49
+80      69
+165    135
+168    137
+183    148
+Name: ID, dtype: int64",
+0,"253    Q19958093
+Name: ID, dtype: object","184    149
+Name: ID, dtype: int64",
+0,"256    Q694759
+Name: ID, dtype: object","185    150
+Name: ID, dtype: int64",
+0,"258    Q291502
+Name: ID, dtype: object","186    151
+Name: ID, dtype: int64",
+1,"258    Q291502
+Name: ID, dtype: object","23      22
+29      28
+37      33
+60      50
+86      74
+93      81
+105     89
+150    123
+187    151
+Name: ID, dtype: int64",
+0,"259    Q291393
+Name: ID, dtype: object","92      80
+136    115
+145    121
+188    152
+Name: ID, dtype: int64",
+1,"259    Q291393
+Name: ID, dtype: object","189    152
+Name: ID, dtype: int64",
+0,"260    Q7609085
+Name: ID, dtype: object","190    153
+Name: ID, dtype: int64",
+0,"262    Q332979
+Name: ID, dtype: object","191    154
+Name: ID, dtype: int64",
+0,"263    Q3377178
+Name: ID, dtype: object","175    141
+192    155
+Name: ID, dtype: int64",
+0,"266    Q260546
+Name: ID, dtype: object","186    151
+193    156
+Name: ID, dtype: int64",
+0,"275    Q390756
+Name: ID, dtype: object","27      26
+55      45
+121    103
+148    122
+194    157
+Name: ID, dtype: int64",
+0,"276    Q63929279
+Name: ID, dtype: object","89      77
+195    158
+Name: ID, dtype: int64",
+0,"277    Q52587398
+Name: ID, dtype: object","103     87
+196    159
+Name: ID, dtype: int64",
+0,"278    Q30164451
+Name: ID, dtype: object","134    113
+197    160
+Name: ID, dtype: int64",
+0,"279    Q30165325
+Name: ID, dtype: object","198    161
+Name: ID, dtype: int64",
+0,"280    Q750293
+Name: ID, dtype: object","43      37
+102     86
+199    162
+Name: ID, dtype: int64",
+0,"281    Q3411409
+Name: ID, dtype: object","35      32
+69      59
+117     99
+200    163
+Name: ID, dtype: int64",
+0,"284    Q304251
+Name: ID, dtype: object","9        9
+135    114
+142    119
+174    140
+201    164
+Name: ID, dtype: int64",
+0,"285    Q695228
+Name: ID, dtype: object","53      44
+202    165
+Name: ID, dtype: int64",
+0,"286    Q303299
+Name: ID, dtype: object","203    166
+Name: ID, dtype: int64",
+1,"286    Q303299
+Name: ID, dtype: object","204    166
+Name: ID, dtype: int64",
+0,"290    Q30165536
+Name: ID, dtype: object","0        1
+78      67
+151    124
+161    132
+181    146
+205    167
+Name: ID, dtype: int64",
+0,"291    Q695295
+Name: ID, dtype: object","140    117
+141    118
+206    168
+Name: ID, dtype: int64",
+0,"292    Q291557
+Name: ID, dtype: object","18      17
+44      38
+54      45
+162    133
+207    169
+Name: ID, dtype: int64",
+0,"293    Q7831699
+Name: ID, dtype: object","208    170
+Name: ID, dtype: int64",
+1,"293    Q7831699
+Name: ID, dtype: object","204    166
+209    170
+Name: ID, dtype: int64",
+0,"294    Q28834855
+Name: ID, dtype: object","43      37
+102     86
+199    162
+210    171
+Name: ID, dtype: int64",
+0,"296    Q296716
+Name: ID, dtype: object","158    130
+211    172
+Name: ID, dtype: int64",
+1,"296    Q296716
+Name: ID, dtype: object","8        8
+11      11
+25      24
+212    172
+Name: ID, dtype: int64",
+0,"297    Q75838898
+Name: ID, dtype: object","35      32
+69      59
+117     99
+200    163
+213    173
+Name: ID, dtype: int64",
+0,"298    Q19917814
+Name: ID, dtype: object","107     90
+111     94
+139    116
+214    174
+Name: ID, dtype: int64",
+0,"300    Q7983764
+Name: ID, dtype: object","215    175
+Name: ID, dtype: int64",
+0,"301    Q16751766
+Name: ID, dtype: object","119    101
+176    142
+177    143
+216    176
+Name: ID, dtype: int64",
+0,"302    Q20732037
+Name: ID, dtype: object","19      18
+59      49
+80      69
+165    135
+168    137
+183    148
+217    177
+Name: ID, dtype: int64",
+0,"305    Q258473
+Name: ID, dtype: object","218    178
+Name: ID, dtype: int64",
+0,"309    Q30234239
+Name: ID, dtype: object","219    179
+Name: ID, dtype: int64",
+1,"309    Q30234239
+Name: ID, dtype: object","22      21
+32      29
+40      35
+125    105
+126    106
+220    179
+Name: ID, dtype: int64",
+0,"310    Q19956858
+Name: ID, dtype: object","51      43
+221    180
+Name: ID, dtype: int64",
+0,"312    Q76364874
+Name: ID, dtype: object","158    130
+211    172
+222    181
+Name: ID, dtype: int64",
+0,"313    Q30234243
+Name: ID, dtype: object","140    117
+141    118
+206    168
+223    182
+Name: ID, dtype: int64",
+0,"314    Q30164792
+Name: ID, dtype: object","27      26
+55      45
+121    103
+148    122
+194    157
+224    183
+Name: ID, dtype: int64",
+0,"315    Q76449027
+Name: ID, dtype: object","225    184
+Name: ID, dtype: int64",
+0,"316    Q76363294
+Name: ID, dtype: object","226    185
+Name: ID, dtype: int64",
+0,"317    Q694639
+Name: ID, dtype: object","134    113
+197    160
+227    186
+Name: ID, dtype: int64",
+0,"318    Q19882771
+Name: ID, dtype: object","228    187
+Name: ID, dtype: int64",
+0,"324    Q450298
+Name: ID, dtype: object","27      26
+55      45
+121    103
+148    122
+194    157
+224    183
+229    188
+Name: ID, dtype: int64",
+1,"324    Q450298
+Name: ID, dtype: object","230    188
+Name: ID, dtype: int64",
+0,"325    Q20648982
+Name: ID, dtype: object","134    113
+197    160
+227    186
+231    189
+Name: ID, dtype: int64",
+0,"328    Q75838761
+Name: ID, dtype: object","27      26
+55      45
+121    103
+148    122
+194    157
+224    183
+229    188
+232    190
+Name: ID, dtype: int64",
+1,"328    Q75838761
+Name: ID, dtype: object","140    117
+141    118
+206    168
+223    182
+233    190
+Name: ID, dtype: int64",
+0,"329    Q290646
+Name: ID, dtype: object","225    184
+234    191
+Name: ID, dtype: int64",
+0,"330    Q391960
+Name: ID, dtype: object","14      14
+94      81
+235    192
+Name: ID, dtype: int64",
+0,"331    Q676947
+Name: ID, dtype: object","236    193
+Name: ID, dtype: int64",
+0,"332    Q30163703
+Name: ID, dtype: object","237    194
+Name: ID, dtype: int64",
+0,"333    Q30226321
+Name: ID, dtype: object","23      22
+29      28
+37      33
+60      50
+86      74
+93      81
+105     89
+150    123
+187    151
+238    195
+Name: ID, dtype: int64",
+0,"334    Q727587
+Name: ID, dtype: object","75      64
+167    136
+239    196
+Name: ID, dtype: int64",
+1,"334    Q727587
+Name: ID, dtype: object","119    101
+176    142
+177    143
+216    176
+240    196
+Name: ID, dtype: int64",
+2,"334    Q727587
+Name: ID, dtype: object","22      21
+32      29
+40      35
+125    105
+126    106
+220    179
+241    196
+Name: ID, dtype: int64",
+0,"336    Q692315
+Name: ID, dtype: object","153    125
+164    134
+172    139
+242    197
+Name: ID, dtype: int64",
+0,"337    Q20128211
+Name: ID, dtype: object","243    198
+Name: ID, dtype: int64",
+0,"338    Q16515053
+Name: ID, dtype: object","35      32
+69      59
+117     99
+200    163
+213    173
+244    199
+Name: ID, dtype: int64",
+1,"338    Q16515053
+Name: ID, dtype: object","100     85
+245    199
+Name: ID, dtype: int64",
+0,"341    Q76363201
+Name: ID, dtype: object","230    188
+246    200
+Name: ID, dtype: int64",
+0,"342    Q296689
+Name: ID, dtype: object","138    115
+247    201
+Name: ID, dtype: int64",
+0,"346    Q76362972
+Name: ID, dtype: object","219    179
+248    202
+Name: ID, dtype: int64",
+0,"348    Q75410647
+Name: ID, dtype: object","149    122
+249    203
+Name: ID, dtype: int64",
+0,"349    Q19872756
+Name: ID, dtype: object","18      17
+44      38
+54      45
+162    133
+207    169
+250    204
+Name: ID, dtype: int64",
+1,"349    Q19872756
+Name: ID, dtype: object","87      75
+159    130
+251    204
+Name: ID, dtype: int64",
+0,"350    Q24061230
+Name: ID, dtype: object","252    205
+Name: ID, dtype: int64",
+0,"354    Q20648913
+Name: ID, dtype: object","96      83
+253    206
+Name: ID, dtype: int64",
+0,"355    Q56709363
+Name: ID, dtype: object","0        1
+78      67
+151    124
+161    132
+181    146
+205    167
+254    207
+Name: ID, dtype: int64",
+0,"356    Q76363721
+Name: ID, dtype: object","89      77
+195    158
+255    208
+Name: ID, dtype: int64",
+0,"357    Q258292
+Name: ID, dtype: object","256    209
+Name: ID, dtype: int64",
+0,"358    Q303814
+Name: ID, dtype: object","8        8
+11      11
+25      24
+212    172
+257    210
+Name: ID, dtype: int64",
+0,"359    Q16211496
+Name: ID, dtype: object","219    179
+248    202
+258    211
+Name: ID, dtype: int64",
+0,"360    Q19957887
+Name: ID, dtype: object","259    212
+Name: ID, dtype: int64",
+1,"360    Q19957887
+Name: ID, dtype: object","27      26
+55      45
+121    103
+148    122
+194    157
+224    183
+229    188
+232    190
+260    212
+Name: ID, dtype: int64",
+0,"361    Q197894
+Name: ID, dtype: object","83      72
+261    213
+Name: ID, dtype: int64",
+0,"363    Q694676
+Name: ID, dtype: object","35      32
+69      59
+117     99
+200    163
+213    173
+244    199
+262    214
+Name: ID, dtype: int64",
+0,"364    Q271800
+Name: ID, dtype: object","23      22
+29      28
+37      33
+60      50
+86      74
+93      81
+105     89
+150    123
+187    151
+238    195
+263    215
+Name: ID, dtype: int64",
+1,"364    Q271800
+Name: ID, dtype: object","264    215
+Name: ID, dtype: int64",
+0,"365    Q478227
+Name: ID, dtype: object","265    216
+Name: ID, dtype: int64",
+0,"367    Q576195
+Name: ID, dtype: object","30      29
+266    217
+Name: ID, dtype: int64",
+0,"368    Q19882420
+Name: ID, dtype: object","153    125
+164    134
+172    139
+242    197
+267    218
+Name: ID, dtype: int64",
+0,"369    Q234182
+Name: ID, dtype: object","149    122
+249    203
+268    219
+Name: ID, dtype: int64",
+0,"370    Q260429
+Name: ID, dtype: object","269    220
+Name: ID, dtype: int64",
+1,"370    Q260429
+Name: ID, dtype: object","270    220
+Name: ID, dtype: int64",
+0,"373    Q262742
+Name: ID, dtype: object","7        7
+10      10
+24      23
+72      62
+90      78
+179    144
+271    221
+Name: ID, dtype: int64",
+0,"374    Q30165535
+Name: ID, dtype: object","134    113
+197    160
+227    186
+231    189
+272    222
+Name: ID, dtype: int64",
+1,"374    Q30165535
+Name: ID, dtype: object","273    222
+Name: ID, dtype: int64",
+0,"381    Q19956787
+Name: ID, dtype: object","19      18
+59      49
+80      69
+165    135
+168    137
+183    148
+217    177
+274    223
+Name: ID, dtype: int64",
+0,"387    Q300292
+Name: ID, dtype: object","275    224
+Name: ID, dtype: int64",
+0,"388    Q30169287
+Name: ID, dtype: object","134    113
+197    160
+227    186
+231    189
+272    222
+276    225
+Name: ID, dtype: int64",
+1,"388    Q30169287
+Name: ID, dtype: object","226    185
+277    225
+Name: ID, dtype: int64",
+2,"388    Q30169287
+Name: ID, dtype: object","278    225
+Name: ID, dtype: int64",
+0,"390    Q76364081
+Name: ID, dtype: object","17      16
+42      37
+122    103
+279    226
+Name: ID, dtype: int64",
+0,"394    Q333680
+Name: ID, dtype: object","149    122
+249    203
+268    219
+280    227
+Name: ID, dtype: int64",
+0,"395    Q291169
+Name: ID, dtype: object","281    228
+Name: ID, dtype: int64",
+0,"397    Q19946187
+Name: ID, dtype: object","33      30
+160    131
+282    229
+Name: ID, dtype: int64",
+0,"398    Q260489
+Name: ID, dtype: object","0        1
+78      67
+151    124
+161    132
+181    146
+205    167
+254    207
+283    230
+Name: ID, dtype: int64",
+0,"399    Q76237363
+Name: ID, dtype: object","35      32
+69      59
+117     99
+200    163
+213    173
+244    199
+262    214
+284    231
+Name: ID, dtype: int64",
+1,"399    Q76237363
+Name: ID, dtype: object","285    231
+Name: ID, dtype: int64",
+0,"401    Q577024
+Name: ID, dtype: object","134    113
+197    160
+227    186
+231    189
+272    222
+276    225
+286    232
+Name: ID, dtype: int64",
+1,"401    Q577024
+Name: ID, dtype: object","58      48
+287    232
+Name: ID, dtype: int64",
+0,"402    Q580431
+Name: ID, dtype: object","89      77
+195    158
+255    208
+288    233
+Name: ID, dtype: int64",
+0,"406    Q76450664
+Name: ID, dtype: object","89      77
+195    158
+255    208
+288    233
+289    234
+Name: ID, dtype: int64",
+0,"407    Q20128115
+Name: ID, dtype: object","19      18
+59      49
+80      69
+165    135
+168    137
+183    148
+217    177
+274    223
+290    235
+Name: ID, dtype: int64",
+0,"409    Q291615
+Name: ID, dtype: object","291    236
+Name: ID, dtype: int64",
+1,"409    Q291615
+Name: ID, dtype: object","292    236
+Name: ID, dtype: int64",
+0,"411    Q1700778
+Name: ID, dtype: object","48      41
+62      52
+109     92
+152    125
+171    139
+293    237
+Name: ID, dtype: int64",
+0,"413    Q20647673
+Name: ID, dtype: object","21      20
+77      66
+294    238
+Name: ID, dtype: int64",
+0,"414    Q272288
+Name: ID, dtype: object","57      47
+295    239
+Name: ID, dtype: int64",
+0,"415    Q264560
+Name: ID, dtype: object","296    240
+Name: ID, dtype: int64",
+0,"416    Q266238
+Name: ID, dtype: object","23      22
+29      28
+37      33
+60      50
+86      74
+93      81
+105     89
+150    123
+187    151
+238    195
+263    215
+297    241
+Name: ID, dtype: int64",
+0,"417    Q17057181
+Name: ID, dtype: object","298    242
+Name: ID, dtype: int64",
+1,"417    Q17057181
+Name: ID, dtype: object","299    242
+Name: ID, dtype: int64",
+0,"419    Q391986
+Name: ID, dtype: object","35      32
+69      59
+117     99
+200    163
+213    173
+244    199
+262    214
+284    231
+300    243
+Name: ID, dtype: int64",
+0,"421    Q20022488
+Name: ID, dtype: object","13      13
+97      84
+301    244
+Name: ID, dtype: int64",
+0,"423    Q76362908
+Name: ID, dtype: object","140    117
+141    118
+206    168
+223    182
+233    190
+302    245
+Name: ID, dtype: int64",
+0,"427    Q983174
+Name: ID, dtype: object","35      32
+69      59
+117     99
+200    163
+213    173
+244    199
+262    214
+284    231
+300    243
+303    246
+Name: ID, dtype: int64",
+0,"428    Q581095
+Name: ID, dtype: object","17      16
+42      37
+122    103
+279    226
+304    247
+Name: ID, dtype: int64",
+1,"428    Q581095
+Name: ID, dtype: object","305    247
+Name: ID, dtype: int64",
+2,"428    Q581095
+Name: ID, dtype: object","306    247
+Name: ID, dtype: int64",
+0,"434    Q480148
+Name: ID, dtype: object","307    248
+Name: ID, dtype: int64",
+0,"438    Q76364051
+Name: ID, dtype: object","120    102
+308    249
+Name: ID, dtype: int64",
+0,"439    Q727933
+Name: ID, dtype: object","191    154
+309    250
+Name: ID, dtype: int64",
+0,"440    Q153454
+Name: ID, dtype: object","99      84
+180    145
+310    251
+Name: ID, dtype: int64",
+0,"450    Q334261
+Name: ID, dtype: object","23      22
+29      28
+37      33
+60      50
+86      74
+93      81
+105     89
+150    123
+187    151
+238    195
+263    215
+297    241
+311    252
+Name: ID, dtype: int64",
+0,"454    Q390869
+Name: ID, dtype: object","92      80
+136    115
+145    121
+188    152
+312    253
+Name: ID, dtype: int64",
+1,"454    Q390869
+Name: ID, dtype: object","22      21
+32      29
+40      35
+125    105
+126    106
+220    179
+241    196
+313    253
+Name: ID, dtype: int64",
+0,"456    Q478276
+Name: ID, dtype: object","314    254
+Name: ID, dtype: int64",
+0,"457    Q673628
+Name: ID, dtype: object","315    255
+Name: ID, dtype: int64",
+1,"457    Q673628
+Name: ID, dtype: object","198    161
+316    255
+Name: ID, dtype: int64",
+0,"459    Q583750
+Name: ID, dtype: object","48      41
+62      52
+109     92
+152    125
+171    139
+293    237
+317    256
+Name: ID, dtype: int64",
+0,"462    Q30163501
+Name: ID, dtype: object","318    257
+Name: ID, dtype: int64",
+0,"463    Q19883117
+Name: ID, dtype: object","185    150
+319    258
+Name: ID, dtype: int64",
+1,"463    Q19883117
+Name: ID, dtype: object","320    258
+Name: ID, dtype: int64",
+2,"463    Q19883117
+Name: ID, dtype: object","321    258
+Name: ID, dtype: int64",
+0,"467    Q689287
+Name: ID, dtype: object","270    220
+322    259
+Name: ID, dtype: int64",
+0,"468    Q19874405
+Name: ID, dtype: object","323    260
+Name: ID, dtype: int64",
+0,"476    Q575881
+Name: ID, dtype: object","103     87
+196    159
+324    261
+Name: ID, dtype: int64",
+0,"478    Q19874839
+Name: ID, dtype: object","48      41
+62      52
+109     92
+152    125
+171    139
+293    237
+317    256
+325    262
+Name: ID, dtype: int64",
+0,"480    Q6417459
+Name: ID, dtype: object","9        9
+135    114
+142    119
+174    140
+201    164
+326    263
+Name: ID, dtype: int64",
+0,"483    Q304027
+Name: ID, dtype: object","7        7
+10      10
+24      23
+72      62
+90      78
+179    144
+271    221
+327    264
+Name: ID, dtype: int64",
+1,"483    Q304027
+Name: ID, dtype: object","204    166
+209    170
+328    264
+Name: ID, dtype: int64",
+0,"485    Q20647896
+Name: ID, dtype: object","22      21
+32      29
+40      35
+125    105
+126    106
+220    179
+241    196
+313    253
+329    265
+Name: ID, dtype: int64",
+0,"494    Q19957306
+Name: ID, dtype: object","8        8
+11      11
+25      24
+212    172
+257    210
+330    266
+Name: ID, dtype: int64",
+0,"495    Q42846975
+Name: ID, dtype: object","120    102
+308    249
+331    267
+Name: ID, dtype: int64",
+0,"499    Q19957144
+Name: ID, dtype: object","18      17
+44      38
+54      45
+162    133
+207    169
+250    204
+332    268
+Name: ID, dtype: int64",
+0,"502    Q392101
+Name: ID, dtype: object","20      19
+28      27
+333    269
+Name: ID, dtype: int64",
+1,"502    Q392101
+Name: ID, dtype: object","334    269
+Name: ID, dtype: int64",
+0,"503    Q19957590
+Name: ID, dtype: object","335    270
+Name: ID, dtype: int64",
+0,"504    Q478711
+Name: ID, dtype: object","114     96
+336    271
+Name: ID, dtype: int64",
+1,"504    Q478711
+Name: ID, dtype: object","47      40
+137    115
+163    133
+337    271
+Name: ID, dtype: int64",
+0,"505    Q76363044
+Name: ID, dtype: object","21      20
+77      66
+294    238
+338    272
+Name: ID, dtype: int64",
+0,"506    Q20127923
+Name: ID, dtype: object","299    242
+339    273
+Name: ID, dtype: int64",
+0,"509    Q19870873
+Name: ID, dtype: object","23      22
+29      28
+37      33
+60      50
+86      74
+93      81
+105     89
+150    123
+187    151
+238    195
+263    215
+297    241
+311    252
+340    274
+Name: ID, dtype: int64",
+0,"510    Q478305
+Name: ID, dtype: object","341    275
+Name: ID, dtype: int64",
+1,"510    Q478305
+Name: ID, dtype: object","23      22
+29      28
+37      33
+60      50
+86      74
+93      81
+105     89
+150    123
+187    151
+238    195
+263    215
+297    241
+311    252
+340    274
+342    275
+Name: ID, dtype: int64",
+0,"513    Q694984
+Name: ID, dtype: object","53      44
+202    165
+343    276
+Name: ID, dtype: int64",
+1,"513    Q694984
+Name: ID, dtype: object","344    276
+Name: ID, dtype: int64",
+0,"514    Q76362953
+Name: ID, dtype: object","264    215
+345    277
+Name: ID, dtype: int64",
+0,"515    Q695007
+Name: ID, dtype: object","100     85
+245    199
+346    278
+Name: ID, dtype: int64",
+1,"515    Q695007
+Name: ID, dtype: object","26      25
+166    135
+347    278
+Name: ID, dtype: int64",
+0,"519    Q267930
+Name: ID, dtype: object","134    113
+197    160
+227    186
+231    189
+272    222
+276    225
+286    232
+348    279
+Name: ID, dtype: int64",
+0,"520    Q580847
+Name: ID, dtype: object","9        9
+135    114
+142    119
+174    140
+201    164
+326    263
+349    280
+Name: ID, dtype: int64",
+0,"521    Q92816852
+Name: ID, dtype: object","107     90
+111     94
+139    116
+214    174
+350    281
+Name: ID, dtype: int64",
