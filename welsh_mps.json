@@ -9,15 +9,15 @@
     },
     "Simon Baynes": {
         "unis": "Magdalene College, Cambridge",
-        "sentence": "He was educated at Belhaven Hill Preparatory School and Shrewsbury School before going up to Magdalene College, Cambridge, where he completed a BA in History."
+        "sentence": "He was privately educated at both Belhaven Hill Preparatory School and Shrewsbury School, before going up to Magdalene College, Cambridge, where he completed a BA in History."
     },
     "Kevin Brennan": {
         "unis": "Pembroke College, Oxford|Cardiff University|University of South Wales",
-        "sentence": "He was educated at St Alban's RC High School in Pontypool and Pembroke College, Oxford.He finished his education with a master's degree in Education Management at the University of Glamorgan (now the University of South Wales) in 1992.In 1982, Brennan joined the Cwmbran Community Press as a journalist."
+        "sentence": "He was educated at St Alban's RC High School in Pontypool and Pembroke College, Oxford, graduating with a degree in Philosophy, Politics and Economics in 1982.He finished his education with a master's degree in Education Management at the University of Glamorgan (now the University of South Wales) in 1992."
     },
     "Chris Bryant": {
-        "unis": "No Data",
-        "sentence": "No Data"
+        "unis": "Mansfield College, Oxford Ripon College Cuddesdon",
+        "sentence": "Although initially a member of the Conservative Party, and an elected office-holder in the Oxford University Conservative Association, he joined the Labour Party in 1986 after leaving Oxford."
     },
     "Alun Cairns": {
         "unis": "University of Wales, Newport",
@@ -25,15 +25,15 @@
     },
     "Stephen Crabb": {
         "unis": "University of Bristol|University of London",
-        "sentence": "Crabb went on to study politics at the University of Bristol and graduated in 1995.They met whilst studying at the University of Bristol."
+        "sentence": "This alludes to popular Chemistry Professor Jon Sharpe who most notably discovered the boiling and melting point of Element 117.Crabb went on to study politics at the University of Bristol and graduated in 1995.They met whilst studying at the University of Bristol."
     },
     "Virginia Crosbie": {
         "unis": "Queen Mary University of London|University of Westminster",
         "sentence": "She studied microbiology at Queen Mary University of London before completing a diploma in management studies at the University of Westminster.She studied microbiology at Queen Mary University of London before completing a diploma in management studies at the University of Westminster."
     },
     "Wayne David": {
-        "unis": "Cardiff University|Swansea University",
-        "sentence": "He grew up in the local village of Cefn Cribwr and later attended Cynffig Comprehensive School before attending University College, Cardiff, where he was awarded a BA in History and Welsh History in 1979.After studying Economic History at University College, Swansea, he returned to Cardiff and qualified as a teacher in 1983 with a PGCE from University College Cardiff."
+        "unis": "University College, Cardiff University College, Swansea",
+        "sentence": "He grew up in the village of Cefn Cribwr and later attended Cynffig Comprehensive School before attending Cardiff University, where he was awarded a BA in History and Welsh History in 1979.After studying Economic History at Swansea University, he returned to Cardiff and qualified as a teacher in 1983 with a PGCE from University College Cardiff."
     },
     "David Davies": {
         "unis": "No Data",
@@ -51,9 +51,13 @@
         "unis": "Cardiff University",
         "sentence": "She attended Tonyrefail Primary School, Tonyrefail Comprehensive School and graduated from Cardiff University with a joint honours degree in Law and Politics."
     },
+    "David Davis": {
+        "unis": "No Data",
+        "sentence": "No Data"
+    },
     "Stephen Doughty": {
         "unis": "Corpus Christi College, Oxford University of St Andrews",
-        "sentence": "After attending Llantwit Major Comprehensive School, he studied at Lester B. Pearson United World College of the Pacific in Canada (when he served as a member of British Columbia Youth Parliament), at Corpus Christi College, Oxford University (from which he graduated with an upper second-class degree in Philosophy, Politics and Economics), and at the University of St Andrews."
+        "sentence": "He went to university at Corpus Christi College, Oxford University, from which he graduated with an upper second-class degree in Philosophy, Politics and Economics, was a member of an all-male singing group, Out of the Blue.He also studied at  the University of St Andrews."
     },
     "Jonathan Edwards": {
         "unis": "No Data",
@@ -64,8 +68,8 @@
         "sentence": "He started his working life as a trainee butcher and later attended Cardiff Metropolitan University completing a degree in History and Culture in 2005."
     },
     "Chris Evans": {
-        "unis": "No Data",
-        "sentence": "No Data"
+        "unis": "Trinity College, Carmarthen",
+        "sentence": "He graduated with a history degree from Trinity College, Carmarthen."
     },
     "Nia Griffith": {
         "unis": "Somerville College, Oxford|Bangor University",
@@ -105,7 +109,7 @@
     },
     "Anna McMorrin": {
         "unis": "University of Southampton|Cardiff University",
-        "sentence": "Having joined the Labour Party as a student, she graduated from the University of Southampton in 1994 with a BA in French and Politics.In 1997, she graduated from Cardiff University, with a post-graduate diploma in journalism."
+        "sentence": "Having joined the Labour Party as a student, McMorrin graduated from the University of Southampton in 1994 with a BA in French and Politics.In 1997, she graduated from Cardiff University, with a post-graduate diploma in journalism."
     },
     "Robin Millar": {
         "unis": "University of Manchester",
@@ -113,10 +117,10 @@
     },
     "Jessica Morden": {
         "unis": "University of Birmingham",
-        "sentence": "Morden was born in Surrey, England and brought up in Cwmbran and educated at Croesyceiliog School before reading History at University of Birmingham."
+        "sentence": "Morden was born in Surrey, England and brought up in Cwmbran and educated at Croesyceiliog School before reading Medieval and Modern History (BA) at University of Birmingham."
     },
     "Christina Rees": {
-        "unis": "Ystrad Mynach College|University of Wales",
+        "unis": "University of Wales",
         "sentence": "No Data"
     },
     "Rob Roberts": {
@@ -125,7 +129,7 @@
     },
     "Liz Saville Roberts": {
         "unis": "Aberystwyth University",
-        "sentence": "Saville Roberts grew up in Eltham, London, before moving to Aberystwyth, Ceredigion aged 18, to study languages at Aberystwyth University."
+        "sentence": "==\nElizabeth Saville Roberts grew up in Eltham, London, before moving to Aberystwyth to study languages at Aberystwyth University."
     },
     "Nick Smith": {
         "unis": "Birkbeck, University of London",
