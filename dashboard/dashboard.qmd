@@ -13,6 +13,7 @@ format:
 
 --- 
 ```{python}
+import altair as alt
 import pandas as pd
 import numpy as np
 from itables import show
@@ -30,23 +31,93 @@ df = pd.merge(df, subjects, left_on='Subject', right_on='ID').drop(columns = 'ID
 df = df.replace('no data', np.nan)
 ```
 
+```{python}
+# stats
+numDegrees = df.groupby(['Name'])['Subject'].count().reset_index(name='Counts')
 
+unisCount = df['UniName'].value_counts(ascending=False).reset_index(name='Counts')
+
+subjectCount = df['SubjectName'].value_counts(ascending=False).reset_index(name='Counts')
+
+```
 
 # Overview
-
-This is a dashboard [link](#)
 
 ## Row
 
 ```{python}
 #| content: valuebox
-#| title: "Churn rate 2022"
+#| title: "Avg degrees per MP"
 dict(
   icon = "mortarboard-fill",
   color = "light",
-  value = "17%"
+  value = numDegrees['Counts'].mean()
 )
 ```
+
+```{python}
+#| content: valuebox
+#| title: "Most popular university"
+dict(
+  icon = "buildings-fill",
+  color = "light",
+  value = unisCount.iloc[0,0]
+)
+```
+
+
+```{python}
+#| content: valuebox
+#| title: "Most popular subject"
+dict(
+  icon = "patch-check-fill",
+  color = "light",
+  value = subjectCount.iloc[0,0]
+)
+```
+
+## Row
+
+```{python}
+#| title: "Top 10 Universities"
+alt.Chart(
+    unisCount.head(10),
+    title=alt.Title(
+       "Most popular univerities",
+       subtitle="Some nice subtitle"
+   )
+).mark_bar().encode(
+    x='Counts:Q',
+    y=alt.Y('UniName:N').sort('-x').title(''),
+).configure_axis(
+    grid=False
+).configure_view(
+    stroke=None
+)
+
+
+```
+
+```{python}
+#| title: "Top 10 degrees"
+alt.Chart(
+    subjectCount.head(10),
+    title=alt.Title(
+       "Most popular degrees",
+       subtitle="Some nice subtitle"
+   )
+).mark_bar().encode(
+    x='Counts:Q',
+    y=alt.Y('SubjectName:N').sort('-x').title(''),
+).configure_axis(
+    grid=False
+).configure_view(
+    stroke=None
+)
+
+
+```
+
 
 # Dataset
 
@@ -55,3 +126,9 @@ dict(
 show(df)
 
 ```
+
+# About
+
+This is a prototype developed in the [Collaborations Workshop 2024 (CW24)](https://www.software.ac.uk/workshop/collaborations-workshop-2024-cw24)' hackday, based on the idea from Suart Grive to produce a [Parliamentary Education Census](https://docs.google.com/document/d/1xaWhPjW05RC3_bwbzVMsuIKVUotlwpKZoG5LpozbqQA/edit).
+
+Repo: https://github.com/sgrieve/mp-hack
