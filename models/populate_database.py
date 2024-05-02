@@ -1,11 +1,14 @@
 import pandas as pd
 import numpy as np
 
+import json
 from pathlib import Path
 
-def add_mp(mp_id, dict_in, df):
+def add_mp(mp_id: str, dict_in: dict, df: pd.DataFrame):
     """Add an entry to dataframe of mp.csv
     """
+
+
     if mp_id in df["ID"]:
         return df
     else:
@@ -99,12 +102,22 @@ def load_name_data(path: Path) -> pd.DataFrame:
     Returns:
         pd.DataFrame: Pandas DataFrame 
     """
-    return pd.read_json(path, orient="index")
+    with open(path, 'r') as input_file:
+        mp_name_id = input_file.readline()
+    
+    return json.loads(mp_name_id)
 
 
 def main():
     """Do something useful
     """
 
-    name_dataframe = load_name_data("json/wiki_extract_474_mp_names.json")
-    add_mp(name_dataframe)
+    mps_data = pd.read_csv("database/mp.csv")
+
+
+    extracted_name_dataframe = load_name_data("json/wiki_extract_474_mp_names.json")
+    
+
+    for mp_id in extracted_name_dataframe:
+        add_mp(mp_id, extracted_name_dataframe[mp_id], mps_data)
+
