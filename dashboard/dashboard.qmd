@@ -14,6 +14,7 @@ format:
 --- 
 ```{python}
 import pandas as pd
+import numpy as np
 from itables import show
 
 mps = pd.read_csv("../database/mp.csv")
@@ -25,6 +26,8 @@ df = pd.merge(relationships, mps, right_on='ID', left_on='MP').drop(columns = 'I
 df = pd.merge(df, unis, left_on='University', right_on='ID').drop(columns = 'ID')
 df = pd.merge(df, subjects, left_on='Subject', right_on='ID').drop(columns = 'ID')
 
+# Replace strings with actual missing data.
+df = df.replace('no data', np.nan)
 ```
 
 
