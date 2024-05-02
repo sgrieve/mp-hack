@@ -1,10 +1,14 @@
 import pandas as pd
 import numpy as np
 
+import json
+from pathlib import Path
 
-def add_mp(mp_id, dict_in, df):
+def add_mp(mp_id: str, dict_in: dict, df: pd.DataFrame):
     """Add an entry to dataframe of mp.csv
     """
+
+
     if mp_id in df["ID"]:
         return df
     else:
@@ -84,4 +88,36 @@ def add_relationship(dict_in, df_mp, df_uni, df_rel, df_sub=None):
 
     # TODO: Add a check to make sure rows do not currently exist
     return pd.concat([df_rel, rows], ignore_index=False)
+
+
+def load_name_data(path: Path) -> pd.DataFrame:
+    """Load JSON data from SPARQL query
+
+    Loads JSON data and returns a Pandas DataFrame with
+    Wikipedia/Wikidata ID as the index and MP name as column.
+
+    Args:
+        path (Path): Path to JSON data
+
+    Returns:
+        pd.DataFrame: Pandas DataFrame 
+    """
+    with open(path, 'r') as input_file:
+        mp_name_id = input_file.readline()
+    
+    return json.loads(mp_name_id)
+
+
+def main():
+    """Do something useful
+    """
+
+    mps_data = pd.read_csv("database/mp.csv")
+
+
+    extracted_name_dataframe = load_name_data("json/wiki_extract_474_mp_names.json")
+    
+
+    for mp_id in extracted_name_dataframe:
+        add_mp(mp_id, extracted_name_dataframe[mp_id], mps_data)
 
