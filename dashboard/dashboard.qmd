@@ -1,0 +1,54 @@
+--- 
+title: "Exploring PM's Education"
+github: https://github.com/sgrieve/mp-hack
+logo: img/logo.png
+theme: 
+    - simplex
+    #- dashboard.css
+#author: "Carlos Cámara, CW2024 working group"
+format: 
+    dashboard:
+        nav-buttons: 
+            - github
+
+--- 
+```{python}
+import pandas as pd
+from itables import show
+
+mps = pd.read_csv("../database/mp.csv")
+subjects = pd.read_csv("../database/subject.csv")
+unis = pd.read_csv("../database/university.csv")
+relationships = pd.read_csv("../database/relationship.csv")
+
+df = pd.merge(relationships, mps, right_on='ID', left_on='MP').drop(columns = 'ID')
+df = pd.merge(df, unis, left_on='University', right_on='ID').drop(columns = 'ID')
+df = pd.merge(df, subjects, left_on='Subject', right_on='ID').drop(columns = 'ID')
+
+```
+
+
+
+# Overview
+
+This is a dashboard [link](#)
+
+## Row
+
+```{python}
+#| content: valuebox
+#| title: "Churn rate 2022"
+dict(
+  icon = "mortarboard-fill",
+  color = "light",
+  value = "17%"
+)
+```
+
+# Dataset
+
+```{python}
+#| title: "`MP.csv`"
+show(df)
+
+```
