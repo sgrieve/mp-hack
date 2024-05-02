@@ -6,12 +6,12 @@ import csv
 
 # Load the courses
 with open("../courses.csv", newline="") as f:
-    courses = [row for row in csv.reader(f)]
+    courses = [row[0] for row in csv.reader(f)]
 print(len(courses))
 
 # Load the categories
 with open("categories.csv", newline="") as f:
-    categories = [row for row in csv.reader(f)]
+    categories = [row[0] for row in csv.reader(f)]
 print(len(categories))
 
 # Embeddings
@@ -34,5 +34,5 @@ np.savetxt("categories_embeddings.csv", pca_categories, delimiter=",")
 
 # Distances
 subject_distances = cdist(embeddings_array, categories_embeddings_array)
-df = pd.DataFrame(subject_distances)
-df.to_csv("subject_distances.csv", index=False, header=False)
+df = pd.DataFrame(subject_distances, columns=categories, index=courses)
+df.to_csv("subject_distances.csv")
